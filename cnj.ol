@@ -2,13 +2,18 @@
 
 from console import Console
 
+interface ChuckNorrisIface {
+RequestResponse:
+	random
+}
+
 service ChuckNorrisJoke {
 	outputPort chuck {
 		location: "socket://api.chucknorris.io:443/"
 		protocol: https {
 			osc.random << { method = "get" alias = "jokes/random" }
 		}
-		requestResponse: random
+		interfaces: ChuckNorrisIface
 	}
 
 	embed Console as console
