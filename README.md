@@ -4,7 +4,7 @@ Jolie tools and libraries for Chuck Norris facts, powered by chucknorris.io.
 
 ## Get a joke now!
 
-`docker run --rm -it fmontesi/cnj`
+`docker run --rm -i fmontesi/cnj`
 
 ## Local Installation and Usage
 
