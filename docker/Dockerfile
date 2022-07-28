@@ -2,6 +2,6 @@ FROM jolielang/jolie:edge
 
 WORKDIR /app
 
-ADD ../main.ol .
+ADD main.ol .
 
-CMD "/app/cnj.ol"
+CMD "/app/main.ol"
