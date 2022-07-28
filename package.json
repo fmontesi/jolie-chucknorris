@@ -1,6 +1,6 @@
 {
 	"name": "jolie-chucknorris",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "Jolie tools and libraries for Chuck Norris facts, powered by chucknorris.io",
 	"bin": {
 		"cnj": "./cnj.ol"
