@@ -4,10 +4,10 @@ Jolie tools and libraries for Chuck Norris facts, powered by chucknorris.io.
 
 ## Get a joke now!
 
-With Docker:
+### With Docker
 `docker run --rm -i fmontesi/cnj`
 
-With npm:
+### With npm
 `npx jolie-chucknorris`
 
 ## Local Installation and Usage
