@@ -8,3 +8,5 @@ pom.xml
 packages/
 .vscode/
 docker/
+.devcontainer/
+.github/
