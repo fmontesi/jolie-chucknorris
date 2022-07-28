@@ -23,7 +23,7 @@ jobs:
           images: |
             fmontesi/cnj
           tags: |
-            type=latest
+            type=edge
             type=semver,pattern={{version}}
       -
         name: Set up QEMU
