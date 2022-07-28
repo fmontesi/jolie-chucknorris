@@ -1,0 +1,37 @@
+{
+	"name": "jolie-chucknorris",
+	"version": "0.2.0",
+	"description": "Jolie tools and libraries for Chuck Norris facts, powered by chucknorris.io",
+	"bin": {
+		"cnj": "./cnj.ol"
+	},
+	"scripts": {
+		"test": "./cnj.ol && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fmontesi/jolie-chucknorris.git"
+	},
+	"keywords": [
+		"jolie",
+		"microservices",
+		"Chuck Norris"
+	],
+	"author": {
+		"name": "Fabrizio Montesi",
+		"email": "famontesi@gmail.com",
+		"url": "https://www.fabriziomontesi.com"
+	},
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fmontesi/jolie-chucknorris/issues"
+	},
+	"homepage": "https://github.com/fmontesi/jolie-chucknorris#readme",
+	"jolie": {
+		"dependencies": {},
+		"maven": {
+			"dependencies": {},
+			"indirectDependencies": {}
+		}
+	}
+}
