@@ -2,10 +2,13 @@
 
 Jolie tools and libraries for Chuck Norris facts, powered by chucknorris.io.
 
-## Installation
+## Get a joke now!
 
+`docker run --rm -it fmontesi/cnj`
+
+## Local Installation and Usage
+
+To install, run:
 `npm install -g jolie-chucknorris`
 
-## Usage
-
-Run `cnj` to get a random Chuck Norris joke.
+Then, you can run `cnj` from the terminal to get a random Chuck Norris joke.

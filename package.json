@@ -22,7 +22,7 @@
 		"email": "famontesi@gmail.com",
 		"url": "https://www.fabriziomontesi.com"
 	},
-	"license": "ISC",
+	"license": "Apache-2.0",
 	"bugs": {
 		"url": "https://github.com/fmontesi/jolie-chucknorris/issues"
 	},
