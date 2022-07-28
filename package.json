@@ -1,12 +1,12 @@
 {
 	"name": "jolie-chucknorris",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"description": "Jolie tools and libraries for Chuck Norris facts, powered by chucknorris.io",
 	"bin": {
-		"cnj": "./cnj.ol"
+		"cnj": "./main.ol"
 	},
 	"scripts": {
-		"test": "./cnj.ol && exit 1"
+		"test": "./main.ol && exit 1"
 	},
 	"repository": {
 		"type": "git",
